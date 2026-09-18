@@ -20,7 +20,7 @@ scripts that rebuild each one from nothing.
 
 ## What the prototype shows
 
-`code/cognisim.py` is a single file with one dependency and no arguments. It
+`cognisim.py` is a single file with one dependency and no arguments. It
 runs every stage of the system end to end and writes nine CSV files. Two runs
 at the same seed produce byte identical output, so any number below can be
 regenerated and checked.
@@ -89,7 +89,7 @@ Or by hand, depending on which parts you want:
 
 The pieces are deliberately separable:
 
-- **`code/cognisim.py`** is self contained. Copy it out, change `SEED`, or
+- **`cognisim.py`** is self contained. Copy it out, change `SEED`, or
   import its classes (`SoftmaxClassifier`, `BKT`, `TrainingEnv`,
   `federated_train`, `inversion_attack`) into your own experiment.
 
