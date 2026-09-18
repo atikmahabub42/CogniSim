@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 cognisim.py - reference prototype for the AAAI-27 demonstration
-
     CogniSim: A Simulator Trainer That Reads Cognitive Load
     and Keeps It Private
 
