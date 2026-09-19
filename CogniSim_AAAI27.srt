@@ -1,0 +1,163 @@
+1
+00:00:00,700 --> 00:00:01,725
+Good morning.
+
+2
+00:00:01,925 --> 00:00:12,805
+This is CogniSim, a simulator trainer that reads cognitive load, and keeps it private. I am Atik Mahabub, from INRS in Montreal, and CAE.
+
+3
+00:00:13,155 --> 00:00:17,935
+In five minutes: one idea, and three things you can do with it at our booth.
+
+4
+00:00:18,835 --> 00:00:27,454
+Here is the problem. When a pilot makes a mistake in a simulator, a normal training system learns one thing: the answer was wrong.
+
+5
+00:00:27,654 --> 00:00:40,113
+But two very different things cause that. A pilot whose working memory is full needs less information, moved to a sense that is still free. A pilot who never learned the procedure needs more teaching.
+
+6
+00:00:40,313 --> 00:00:47,866
+The two fixes are opposites. Give the wrong one during an engine failure, and the pilot practises the wrong response.
+
+7
+00:00:48,766 --> 00:00:51,753
+CogniSim looks at the pilot, instead of the score.
+
+8
+00:00:51,953 --> 00:01:01,533
+Flight data and body signals come in on the left. The engine tracks what the pilot knows, and picks one change: difficulty, content, or pace.
+
+9
+00:01:01,733 --> 00:01:06,533
+The result updates the model of that pilot, while the aircraft is still flying.
+
+10
+00:01:07,433 --> 00:01:11,402
+At the booth, there are three things you can do, two to four minutes each.
+
+11
+00:01:11,602 --> 00:01:13,160
+Fly an engine failure.
+
+12
+00:01:13,360 --> 00:01:14,790
+Watch the system think.
+
+13
+00:01:14,990 --> 00:01:16,783
+And try to break its privacy.
+
+14
+00:01:17,683 --> 00:01:19,347
+First, what the sensors see.
+
+15
+00:01:19,547 --> 00:01:28,124
+The eyes, sixty times a second. The brain, two hundred and fifty. The heart, once a second. And the flight data, one hundred and twenty.
+
+16
+00:01:28,324 --> 00:01:41,573
+A small network turns all of that into three numbers: effort the task demands, effort wasted on the display, and effort left for learning. From the event to a decision takes under seven hundred milliseconds.
+
+17
+00:01:41,873 --> 00:01:44,519
+So we help during the maneuver, not after it.
+
+18
+00:01:45,419 --> 00:01:56,449
+Second, how it decides. One model tracks what the pilot has mastered. The policy reads that, and the load, then pulls one of three levers: difficulty, content, or pace.
+
+19
+00:01:56,649 --> 00:02:10,303
+When wasted effort climbs too high, it does something most systems never do. It takes information away. Warnings that do not matter right now are dimmed, and guidance moves to sound and touch, where there is still room.
+
+20
+00:02:11,203 --> 00:02:15,449
+Third, how it speaks. Most tutors pause the task to give advice.
+
+21
+00:02:15,649 --> 00:02:27,063
+Ours never stops the flight. Help comes from a virtual first officer, staying in character. I have the radios; you fly the aircraft. So the crew work stays realistic.
+
+22
+00:02:27,963 --> 00:02:34,982
+Every maneuver leaves six measurements in a competency record, each change stored next to the reading that caused it.
+
+23
+00:02:35,182 --> 00:02:41,049
+Because software does the scoring, two instructors no longer grade the same flight differently.
+
+24
+00:02:41,949 --> 00:02:53,833
+So, activity one. You fly a Boeing seven thirty-seven off a wet runway. An engine quits just past the speed where stopping is no longer an option, in a gusting crosswind.
+
+25
+00:02:54,033 --> 00:02:55,889
+The sensors run the whole time.
+
+26
+00:02:56,789 --> 00:03:01,782
+At eighteen point two seconds, you are past that speed, and everything is normal.
+
+27
+00:03:01,982 --> 00:03:19,455
+At eighteen point seven, the engine quits. Within six hundred and twenty milliseconds, the pupil widens from four point two to six point eight millimetres, the front of the brain gets busier, and the heart ratio triples. Your eyes lock on the engine gauges, and never check the airspeed.
+
+28
+00:03:19,655 --> 00:03:30,493
+So the system dims the clutter, and the first officer takes the radios. By twenty-one point two seconds, you are scanning again. Recovery took three point one seconds.
+
+29
+00:03:30,893 --> 00:03:32,579
+And here is the part I like.
+
+30
+00:03:33,229 --> 00:03:37,155
+Most people only notice any of this, when they watch the replay.
+
+31
+00:03:38,055 --> 00:03:47,613
+Activity two. A second screen shows the inside of the loop while you fly: the three numbers, the mastery so far, what the system did, and why.
+
+32
+00:03:47,813 --> 00:03:54,960
+That is the part we most want an audience to argue with. A claim you can watch is a claim you can disagree with.
+
+33
+00:03:55,860 --> 00:04:07,295
+Activity three. Nothing from the body leaves the training computer. Only a summary of what the local model learned is sent out, trimmed to a fixed size, and blurred with noise.
+
+34
+00:04:07,495 --> 00:04:12,723
+The device blurs it at a budget of two; the server, again at one. Three in total.
+
+35
+00:04:13,623 --> 00:04:17,911
+And then, you attack it, rebuilding the pilot's signals from that summary.
+
+36
+00:04:18,111 --> 00:04:30,485
+With the protection off, it recovers them almost exactly. A similarity of one point zero: the trainee's own eye and heart traces, back out of a number that was supposed to be anonymous.
+
+37
+00:04:30,685 --> 00:04:32,969
+With the protection on, it gets noise.
+
+38
+00:04:33,169 --> 00:04:36,988
+And the shared model gives up only about two points of accuracy.
+
+39
+00:04:37,888 --> 00:04:45,675
+We need a desk, power, and a monitor. If you would rather not wear sensors, run the same system from recordings we bring.
+
+40
+00:04:45,875 --> 00:04:49,460
+Come and fly it, look inside its reasoning, and try to break it.
+
+41
+00:04:49,910 --> 00:04:50,828
+Thank you.
